@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Details</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>User Details</h1>
+    <p>Thank you for registering!</p>
+  </header>
+
+  <section class="user-details-section">
+    <h2>Details:</h2>
+    <p><strong>First Name:</strong> {{ first_name }}</p>
+    <p><strong>Last Name:</strong> {{ last_name }}</p>
+    <p><strong>Email:</strong> {{ email }}</p>
+    <p><strong>Phone:</strong> {{ phone }}</p>
+    <p><strong>Address:</strong> {{ address }}</p>
+    <p><strong>SSN:</strong> {{ ssn }}</p>
+
+    <h2>Actions:</h2>
+    <button class="deposit-button">Deposit</button>
+    <button class="withdraw-button">Withdraw</button>
+    <p><strong>Balance:</strong> $0</p>
+  </section>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trusted Traders - Registration</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>TRUSTED TRADERS</h1>
+    <p>You made the right choice</p>
+  </header>
+
+  <section class="registration-section">
+    <form action="/register" method="post" enctype="multipart/form-data">
+      <label for="firstName">First Name</label>
+      <input type="text" id="firstName" name="firstName" required>
+
+      <label for="lastName">Last Name</label>
+      <input type="text" id="lastName" name="lastName" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="license">Upload Driver's License</label>
+      <input type="file" id="license" name="license">
+
+      <label for="address">Home Address</label>
+      <input type="text" id="address" name="address" required>
+
+      <label for="ssn">State Security Number</label>
+      <input type="text" id="ssn" name="ssn" required>
+
+      <button type="submit" class="register-button">Register</button>
+    </form>
+  </section>
+
+</body>
+</html>
